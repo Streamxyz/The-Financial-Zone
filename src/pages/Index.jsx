@@ -30,24 +30,20 @@ const Index = () => {
           </div>
         </div>
         <aside className="lg:w-1/4">
-          <div className="bg-gray-100 p-4 mb-8">
-            <h2 className="text-xl font-bold mb-4">АКЦЕНТ НА ДЕНЯ</h2>
-            <img src="/placeholder.svg" alt="Акцент на деня" className="w-full h-48 object-cover mb-4" />
-            <h3 className="text-lg font-semibold mb-2">Гответе се за още турболенции на финансовите пазари</h3>
-            <p className="text-sm text-gray-600">Финанси</p>
-          </div>
           <div className="space-y-4">
-            <div className="border p-4">
+            <div className="bg-[#b80000] p-4">
               <img src="/placeholder.svg" alt="Реклама 1" className="w-full h-32 object-cover mb-2" />
-              <p className="text-center">Реклама 1</p>
+              <p className="text-center text-white">Реклама 1</p>
             </div>
-            <div className="border p-4">
+            <div className="bg-gray-100 p-4">
+              <h2 className="text-xl font-bold mb-4">АКЦЕНТ НА ДЕНЯ</h2>
+              <img src="/placeholder.svg" alt="Акцент на деня" className="w-full h-48 object-cover mb-4" />
+              <h3 className="text-lg font-semibold mb-2">Гответе се за още турболенции на финансовите пазари</h3>
+              <p className="text-sm text-gray-600">Финанси</p>
+            </div>
+            <div className="bg-[#b80000] p-4">
               <img src="/placeholder.svg" alt="Реклама 2" className="w-full h-32 object-cover mb-2" />
-              <p className="text-center">Реклама 2</p>
-            </div>
-            <div className="border p-4">
-              <img src="/placeholder.svg" alt="Реклама 3" className="w-full h-32 object-cover mb-2" />
-              <p className="text-center">Реклама 3</p>
+              <p className="text-center text-white">Реклама 2</p>
             </div>
           </div>
         </aside>
