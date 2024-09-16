@@ -1,3 +1,4 @@
+import React from 'react';
 import { HomeIcon, TrendingUpIcon, BuildingIcon, MonitorIcon, GlobeIcon, WalletIcon, BellIcon } from "lucide-react";
 import Index from "./pages/Index.jsx";
 import Macro from "./pages/Macro.jsx";
