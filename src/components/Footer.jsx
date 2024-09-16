@@ -8,8 +8,8 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div>
             <h3 className="text-xl font-bold mb-4">Contact</h3>
-            <p>Email: info@money.bg</p>
-            <p>Phone: +359 2 123 4567</p>
+            <p>Email: info@financialzone.com</p>
+            <p>Phone: +1 555 123 4567</p>
           </div>
           <div>
             <h3 className="text-xl font-bold mb-4">Social Media</h3>
@@ -37,7 +37,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="mt-8 text-center">
-          <p>&copy; 2024 Money.bg. All rights reserved.</p>
+          <p>&copy; 2024 The Financial Zone. All rights reserved.</p>
         </div>
       </div>
     </footer>

@@ -6,7 +6,7 @@ const Index = () => {
     <Layout>
       <div className="space-y-8">
         <section>
-          <h1 className="text-4xl font-bold mb-4">Welcome to Money.bg</h1>
+          <h1 className="text-4xl font-bold mb-4">Welcome to The Financial Zone</h1>
           <p className="text-xl text-gray-600">Your source for financial news and insights</p>
         </section>
         <section>
