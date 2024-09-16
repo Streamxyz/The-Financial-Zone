@@ -12,8 +12,13 @@ const App = () => (
       <Toaster />
       <BrowserRouter>
         <Routes>
-          {navItems.map(({ to, page }) => (
-            <Route key={to} path={to} element={page} />
+          {navItems.map(({ to, page, subItems }) => (
+            <React.Fragment key={to}>
+              <Route path={to} element={page} />
+              {subItems && subItems.map(({ to: subTo, page: subPage }) => (
+                <Route key={subTo} path={subTo} element={subPage} />
+              ))}
+            </React.Fragment>
           ))}
         </Routes>
       </BrowserRouter>

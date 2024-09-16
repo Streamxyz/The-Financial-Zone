@@ -6,6 +6,12 @@ import Tech from "./pages/Tech.jsx";
 import Panorama from "./pages/Panorama.jsx";
 import PersonalFinance from "./pages/PersonalFinance.jsx";
 import Latest from "./pages/Latest.jsx";
+import EconomicIndicators from "./pages/macro/EconomicIndicators.jsx";
+import MonetaryPolicy from "./pages/macro/MonetaryPolicy.jsx";
+import FiscalPolicy from "./pages/macro/FiscalPolicy.jsx";
+import EarningsReports from "./pages/companies/EarningsReports.jsx";
+import MergersAcquisitions from "./pages/companies/MergersAcquisitions.jsx";
+import IPOs from "./pages/companies/IPOs.jsx";
 
 export const navItems = [
   {
@@ -19,12 +25,22 @@ export const navItems = [
     to: "/macro",
     icon: <TrendingUpIcon className="h-4 w-4" />,
     page: <Macro />,
+    subItems: [
+      { title: "Economic Indicators", to: "/macro/economic-indicators", page: <EconomicIndicators /> },
+      { title: "Monetary Policy", to: "/macro/monetary-policy", page: <MonetaryPolicy /> },
+      { title: "Fiscal Policy", to: "/macro/fiscal-policy", page: <FiscalPolicy /> },
+    ],
   },
   {
     title: "Companies",
     to: "/companies",
     icon: <BuildingIcon className="h-4 w-4" />,
     page: <Companies />,
+    subItems: [
+      { title: "Earnings Reports", to: "/companies/earnings-reports", page: <EarningsReports /> },
+      { title: "Mergers & Acquisitions", to: "/companies/mergers-acquisitions", page: <MergersAcquisitions /> },
+      { title: "IPOs", to: "/companies/ipos", page: <IPOs /> },
+    ],
   },
   {
     title: "Tech",
